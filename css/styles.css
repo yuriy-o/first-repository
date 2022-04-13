@@ -6,7 +6,7 @@
   }
   
   @font-face {
-    font-weight: 700;
+    font-weight: 800;
     font-family: "Montserrat";
     font-style: normal;
     src: url("fonts/Montserrat-Bold.woff") format("woff");
@@ -16,7 +16,7 @@
   body {
     margin: 0;
     font-family: "Montserrat", "Arial", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
   
