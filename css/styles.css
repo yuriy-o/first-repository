@@ -5,7 +5,7 @@
     src: url("fonts/Montserrat-Regular.woff") format("woff");
   }
   
-  @font-face {
+    @font-face {
     font-weight: 800;
     font-family: "Montserrat";
     font-style: normal;
@@ -131,4 +131,8 @@
   
   nav::before {
     content: "nav";
+  }
+  .container {
+    background-color: #FF8630;
+    padding: 55px 40px;
   }
