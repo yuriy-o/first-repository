@@ -11,53 +11,104 @@
     <header>
       <ol>
         <li>
-          <a href="index.html" target="_blank">Головна сторінка</a>
+          <a href="inde2.html" target="_blank">Головна сторінка</a>
         </li>
         <li>
           <a href="index2.html" target="_blank">Друга сторінка</a>
         </li>
+        <li>
+          <a href="index3.html" target="_blank">Таблиці</a>
+        </li>
+        <li>
+          <a href="index4.html" target="_blank">Відео та аудіо</a>
+        </li>
       </ol>
     </header>
-    <hr />
-    <img src="./images/a/b/photo.jpg" alt="Yura plus Olya" width="600" />
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi repellendus aliquid odio
-      ut, consequuntur quae quos provident inventore laboriosam earum, aperiam ipsa porro. Nemo
-      necessitatibus repellat dolores minus possimus optio?
-    </p>
-    <p>
-      Сер <strong>Алекс Фергюсон</strong> якось сказав про Філіпо Індзагі:
-      <q>Цей хлопець повинен був народитись в положенні поза грою</q>.
-    </p>
-    <table>
-      <caption>
-        Розклад потягів
-      </caption>
-      <thead>
-        <tr>
-          <th>Номер</th>
-          <th>Маршрут</th>
-          <th>Час у дорозі</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>433</td>
-          <td>Київ - Ковель</td>
-          <td>5 годин</td>
-        </tr>
-        <tr>
-          <td>701</td>
-          <td>Харків - Дніпро</td>
-          <td>7 годин</td>
-        </tr>
-        <tr>
-          <td>258</td>
-          <td>Львів - Одес</td>
-          <td>4 години</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>Таблиця з об'єднання клітинок</p>
+    <main>
+      <h1>Таблиці</h1>
+      <table>
+        <caption>
+          Розклад потягів
+        </caption>
+        <thead>
+          <tr>
+            <th>Номер</th>
+            <th>Маршрут</th>
+            <th>Час у дорозі</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>433</td>
+            <td>Київ - Ковель</td>
+            <td>5 годин</td>
+          </tr>
+          <tr>
+            <td>701</td>
+            <td>Харків - Дніпро</td>
+            <td>7 годин</td>
+          </tr>
+          <tr>
+            <td>258</td>
+            <td>Львів - Одес</td>
+            <td>4 години</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Таблиця з об'єднання клітинок</p>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Хмарний сервіс</th>
+            <th colspan="3">Використання</th>
+          </tr>
+          <tr>
+            <th>Користувачі</th>
+            <th>Відвідування</th>
+            <th>Об`єм</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google</td>
+            <td>12000</td>
+            <td>307000</td>
+            <td>1000 Tb</td>
+          </tr>
+          <tr>
+            <td>Amazon</td>
+            <td>9000</td>
+            <td>200500</td>
+            <td>800 Tb</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Час та дата</h2>
+
+      <ol>
+        <li>
+          <h3>Дата</h3>
+          <p>
+            Як записано в коді → &lt;p&gt;Останні новини на &lt;time datetime="2019-12-14"&gt;14
+            грудня 2019 року&lt;/time&gt;.&lt;/p&gt;
+          </p>
+          <p>
+            Що ми бачимо на сторінці → Останні новини на
+            <time datetime="2019-12-14">14 грудня 2019 року</time>.
+          </p>
+        </li>
+        <li>
+          <h3>Дата та час</h3>
+          <p>
+            Як записано в коді → &lt;p&gt;Засідання відбулося об &lt;time
+            datetime="2018-07-14T11:30"&gt;11:30 ранку&lt;/time&gt;.&lt;/p&gt;
+          </p>
+          <p>
+            Що ми бачимо на сторінці → Засідання відбулося об
+            <time datetime="2018-07-14T11:30">11:30 ранку</time>.
+          </p>
+        </li>
+      </ol>
+    </main>
   </body>
 </html>
