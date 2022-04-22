@@ -1,7 +1,6 @@
 {
-    "editor.bracketPairColorization.enabled": true,
-    "workbench.colorCustomizations": {
-    
-    },
-    "cSpell.language": "en,ru,ua,uk"
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {},
+  "cSpell.language": "en,ru,ua,uk",
+  "liveServer.settings.port": 5501
 }
