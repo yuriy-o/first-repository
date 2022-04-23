@@ -9,39 +9,49 @@
 .social-links .link:active {
     color: red;
 }
-/* .social-links .link:visited {
+.social-links .link:visited {
     color: green;
-} */
+} 
 
-/* .social-links .link {
+.social-links .link {
     color: teal;
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
-    color: orange;
+a {
+    color: darkslateblue;
 }
-
-.social-links .link:active {
-    color: red;
+a:hover{
+    color: red
 }
-
-.social-links .link:visited {
-    color: green;
-} */
-
-.schedule-body>tr:hover {
-    background-color: tomato;
-    color: white;
+a:focus{
+    color:coral
 }
+a:active{
+    color: darkgreen;
+}
+body{
+    color:2a2a2a
+}
+/* font-family: sans-serif */
 
 /* Оформлення таблиці */
-.schedule {
+/* .schedule {
     border-collapse: collapse;
-}
+} */
 
 .schedule th,
 .schedule td {
     padding: 8px;
     border: 1px solid #d81010;
+}
+
+.schedule-body>tr:hover {
+    background-color: tomato;
+    color: white;
+    border: 1px solid white;
+}
+
+.schedule-body>th:hover {
+    background-color: teal;
+    color: white;
 }
