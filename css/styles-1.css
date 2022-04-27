@@ -1,45 +1,45 @@
 .social-links .link {
-    color: teal;
+  color: teal;
 }
 
 .social-links .link:hover {
-    color: blue;
+  color: blue;
 }
 
 .social-links .link:focus {
-    color: orange;
+  color: orange;
 }
 
 .social-links .link:active {
-    color: red;
+  color: red;
 }
 
 .social-links .link:visited {
-    color: green;
+  color: green;
 }
 
 .social-links .link {
-    color: teal;
+  color: teal;
 }
 
 a {
-    color: darkslateblue;
+  color: darkslateblue;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 a:focus {
-    color: coral;
+  color: coral;
 }
 
 a:active {
-    color: darkgreen;
+  color: darkgreen;
 }
 
 body {
-    color: 2a2a2a;
+  color: 2a2a2a;
 }
 
 /* font-family: sans-serif */
@@ -51,17 +51,39 @@ body {
 
 .schedule th,
 .schedule td {
-    padding: 8px;
-    border: 1px solid #d81010;
+  padding: 18px;
+  border: 2px solid #d81010;
 }
 
-.schedule-body>tr:hover {
-    background-color: tomato;
-    color: white;
-    border: 1px solid white;
+.schedule-head > tr:hover {
+  background-color: coral;
+  color: white;
+}
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+  border: 1px blue;
 }
 
-.schedule-body>th:hover {
-    background-color: teal;
-    color: white;
+/* стилі з автоперевірки */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    opacity: 1;
+}
+
+.sub-menu {
+    opacity: 0;
+    margin-left: 100px;
+}
+.sub-menu:hover {
+    opacity: 1;
+}
+.menu-item:hover {
+    opacity: 1;
 }
