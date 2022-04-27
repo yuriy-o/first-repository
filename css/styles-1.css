@@ -66,24 +66,20 @@ body {
 }
 
 /* стилі з автоперевірки */
-ul {
-    padding: 0;
-    list-style: none;
+pre {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
 }
 
-.menu {
-    display: inline-block;
-    vertical-align: top;
-    opacity: 1;
+pre::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
 }
 
-.sub-menu {
-    opacity: 0;
-    margin-left: 100px;
-}
-.sub-menu:hover {
-    opacity: 1;
-}
-.menu-item:hover {
-    opacity: 1;
+/* Let's add text selection styles for each paragraph of the poem. */
+pre::selection {
+  color: #ffffff;
+  background-color: #3f51b5;
 }
