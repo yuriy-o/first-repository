@@ -1,0 +1,93 @@
+/* Приклад 3 */
+.box {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.top {
+    margin-bottom: 5px;
+    background-color: teal;
+}
+
+.bottom {
+    margin-top: 10px;
+    background-color: palevioletred;
+}
+
+/* Приклад 4 */
+.outer-box {
+    width: 200px;
+    /* height: auto; */
+    background-color: teal;
+    margin-top: 20px;
+    padding: 20px 30px 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.inner-box {
+    width: auto;
+    /* height: auto; */
+    margin-top: 10px;
+    background-color: palevioletred;
+    margin: auto;
+    padding: 20px;
+    color: rgb(173, 12, 66);
+    border-radius: 20%;
+}
+
+.link {
+    background-color: tomato;
+    color: white;
+
+    /* ✅ Працює */
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    /* ❌ Жодного ефекту */
+    width: 1000px;
+    height: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* переводимо блокові елементи в рядкові */
+.block {
+    background-color: rgb(184, 157, 209);
+}
+
+.text {
+    display: inline;
+    background-color: rgb(184, 157, 209);
+
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: rgb(184, 157, 209);
+    padding: 5px 0 5px;
+    margin-top: 3px;
+}
+
+.pane {
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 3px;
+
+    display: none;
+}
+.is-active {
+    display: block;
+}
+/* Або з'являється при наведенні
+.is-active:hover {
+    display: block;
+} */
+.items {
+    letter-spacing: .25rem;
+}
+
+/*  Напиши код під цим рядком */

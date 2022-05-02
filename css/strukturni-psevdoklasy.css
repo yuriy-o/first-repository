@@ -1,0 +1,37 @@
+.list-item {
+    margin-bottom: 12px;
+    color: magenta;
+    text-decoration:overline;
+}
+
+/* .list-item:first-child {
+    margin-bottom: 0;
+    color:initial;
+    text-decoration: none;
+} */
+.list-item:not(:first-child) {
+    margin-bottom: 12px;
+    text-decoration: none;
+    color:initial;
+}
+/* 
+===========================
+Псевдоклас :nth-child(an+b)
+===========================
+ */
+/* .list-item:nth-child(5) {
+    background-color: orange;
+} */
+/* Парні і непарні елементи */
+/* .list-item:nth-child(2n+3) {
+    background-color: orange;
+} */
+
+/* Аналогічно, використовуючи псевдонім */
+/* .list-item:nth-child(even) {
+    background-color: orange;
+} */
+/* Від N-го елемента */
+.list-item:nth-child(n + 6) {
+    background-color: orange;
+}
