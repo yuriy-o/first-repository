@@ -1,3 +1,4 @@
+
 .list-item {
     margin-bottom: 12px;
     color: magenta;
@@ -13,6 +14,7 @@
     margin-bottom: 12px;
     text-decoration: none;
     color:initial;
+    vertical-align: baseline;
 }
 /* 
 ===========================
@@ -20,7 +22,7 @@
 ===========================
  */
 /* .list-item:nth-child(5) {
-    background-color: orange;
+    background-color: orange; 
 } */
 /* Парні і непарні елементи */
 /* .list-item:nth-child(2n+3) {
@@ -34,4 +36,18 @@
 /* Від N-го елемента */
 .list-item:nth-child(n + 6) {
     background-color: orange;
+}
+/* .text{
+    margin-left: auto;
+} */
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    color: white;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
 }
