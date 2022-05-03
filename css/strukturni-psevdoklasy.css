@@ -1,7 +1,7 @@
 .list-item {
-    margin-bottom: 12px;
-    color: magenta;
-    text-decoration: overline;
+  margin-bottom: 12px;
+  color: magenta;
+  text-decoration: overline;
 }
 
 /* .list-item:first-child {
@@ -10,10 +10,10 @@
     text-decoration: none;
 } */
 .list-item:not(:first-child) {
-    margin-bottom: 12px;
-    text-decoration: none;
-    color: initial;
-    vertical-align: baseline;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: initial;
+  vertical-align: baseline;
 }
 
 /* 
@@ -35,21 +35,40 @@
 } */
 /* Від N-го елемента */
 .list-item:nth-child(n + 6) {
-    background-color: orange;
+  background-color: orange;
 }
 
 /* .text{
     margin-left: auto;
 } */
 .box {
-    width: 200px;
-    height: 100px;
-    background-color: tomato;
-    color: white;
-    padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  width: 200px;
+  height: 100px;
+  background-color: tomato;
+  color: white;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 
-    margin-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+ {
+   {
+     {
+       {
+         {
+           {
+             {
+               {
+                 {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
