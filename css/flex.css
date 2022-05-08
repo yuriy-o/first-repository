@@ -42,3 +42,26 @@ body {
     justify-content: center;
     margin: -8px;
 }
+.container2{
+    display: flex;
+    width: 400px;
+    min-height: 500px;
+    background-color: aquamarine;
+    outline: 1px double tomato;
+    margin: 5px;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+
+}
+.item{
+    
+    flex-basis: 160px;
+    width: 100px;
+    max-width: 80px;
+    min-width: 60px;
+    height: 100px;
+    background-color: dodgerblue;
+    outline: 1px solid red;
+}
