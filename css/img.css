@@ -1,0 +1,166 @@
+/* #region 5 Зображень */
+body {
+  margin: 0;
+}
+
+.canvas {
+  max-width: 1000px;
+  height: 400px;
+
+  background-image: url('https://cdn-icons-png.flaticon.com/512/361/361678.png'),
+    url('https://cdn-icons-png.flaticon.com/512/4206/4206277.png'),
+    url('https://cdn-icons-png.flaticon.com/512/814/814513.png'),
+    url('https://www.energyhog.org/wp-content/uploads/2020/10/EnergyPig.png'),
+    url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg');
+
+  background-size: 80px, 100px, 150px, 130px, cover;
+  background-repeat: no-repeat;
+  background-position: top 120px right 130px, top 270px left 130px, center, 100px 60px, center;
+}
+/* #endregion */
+/* #region Псевдоелементи */
+.box::before {
+  content: 'Це текст в ::before';
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: 'Це текст в ::after';
+  font-size: 30px;
+  color: teal;
+}
+/* #endregion */
+/* #region Псевдоклас :hover */
+.box:hover::before {
+  color: green;
+}
+
+.box:hover::after {
+  color: tomato;
+}
+/* #endregion */
+/*#region Псевдоелемент-іконка */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+}
+
+.list {
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+
+  background-image: linear-gradient(
+    to right,
+    #f44336 15%,
+    #09792b 15%,
+    #09792b 40%,
+    #00b9ff 40%,
+    #00b9ff 65%,
+    #ffb800 65%
+  );
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.list-link {
+  display: inline-flex;
+  align-items: center;
+  color: currentColor;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.list-link::before,
+.list-link::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+}
+
+/* Adds a fire icon in front of the link text */
+.list-link::before {
+  margin-right: 16px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/599/599502.png');
+}
+
+/* Adds and hides arrow icon after the link text */
+.list-link::after {
+  display: none;
+  margin-left: 16px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/507/507257.png');
+}
+
+.list-link:hover {
+  color: #2196f3;
+}
+
+/* Show arrow icon on hover */
+.list-link:hover::after {
+  display: block;
+}
+/* #endregion */
+/* #region Колорстоп (color-stop) */
+body {
+  background-image: linear-gradient(to right, #f44336 15%, #09792b 40%, #00b9ff 65%, #ffb800);
+}
+/* .list {
+    background-image: linear-gradient(to right,
+            rgb(212, 236, 104) 15%,
+              rgb(30, 172, 89));
+} */
+
+/* #endregion */
+/* #region Суцільний градієнт */
+.bgc {
+  min-height: auto;
+  padding: 5px;
+
+  background: rgb(226, 32, 15);
+  background: radial-gradient(
+    circle,
+    rgba(226, 32, 15, 1) 0%,
+    rgba(251, 107, 17, 1) 49%,
+    rgba(254, 255, 0, 1) 100%
+  );
+}
+.div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tile {
+  /* background-image: linear-gradient(
+    to top,
+    yellow,
+    yellow,
+    blue,
+    blue
+  ); */
+
+  background: rgb(15, 33, 226);
+  background: linear-gradient(180deg, rgba(15, 33, 226, 1) 0%, rgba(254, 255, 0, 1) 100%);
+}
+
+.conic-gradient {
+  background: conic-gradient(from 90deg, #fff, #000);
+}
+
+.conic-gradient-colorful {
+  background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+}
+/* #endregion */
+
