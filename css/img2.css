@@ -1,0 +1,57 @@
+/* #region ЗАВДАННЯ 5/10 */
+/* .container {
+  display: flex;
+  padding-top: 15px;
+}
+.wrp-image {
+  width: 240px;
+  border: 1px solid gold;
+  margin: 0 15px 15px;
+}
+.images {
+  width: 100%;
+  display: block;
+} */
+/* #endregion */
+
+/* #region ЗАВДАННЯ 6/10 */
+.container {
+  display: flex;
+  padding-top: 15px;
+}
+
+.images {
+  border: 1px solid gold;
+  margin: 0 15px 15px;
+  width: 240px;
+  height: 320px;
+  object-fit: cover;
+}
+
+img[class~='contain'] {
+  object-fit: contain;
+}
+/* #endregion */
+.box {
+  width: 220px;
+  height: 100px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, red 50px, transparent 50%),
+    linear-gradient(to top left, orange 50px, transparent 50%);
+}
+.box-repeat {
+  width: 220px;
+  height: 100px;
+  margin-bottom: 20px;
+  background: repeating-linear-gradient(90deg, red 50px, transparent 50%),
+    linear-gradient(to top left, orange 50px, transparent 50%);
+}
+.container-repeat {
+display: inline-block;
+  width: 200px;
+  height: 100px;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid red;
+  background: repeating-linear-gradient(orange 1px, transparent 2px, transparent 20px);
+}
